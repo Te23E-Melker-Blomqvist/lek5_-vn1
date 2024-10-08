@@ -1,0 +1,68 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+
+#top {
+    border: 3px solid red;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h1 {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.aqua-bakgrund{
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+
+a {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+#mellan {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid orange;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#mellan_h, #mellan_v {
+    width: 49%;
+    min-width: 49%;
+    border: 2px solid black;
+}
+
+#mellan_h {
+    background-color: yellow;
+}
+
+#mellan_v {
+    background-color: pink;
+}
+
+
+#botten {
+    border: 2px solid yellow;
+}
